@@ -2,7 +2,7 @@
 
 
 
-![synology design overview](./images/synology design overview.png)
+![synology design overview](./images/synology_design_overview.png)
 
 ## Hard drives
 
