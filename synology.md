@@ -8,7 +8,7 @@
 
 On models with 6+ hard drive bays, populate all bays -2 to leave room to grow the capacity for future needs.
 
-Setup all available hard drives as one pool.
+Set up all available hard drives as one pool.
 
 ## Backups
 
@@ -35,7 +35,7 @@ Target non-peak workload hours for backup/integrity checks.
 
 https://kb.synology.com/en-us/DSM/tutorial/Quick_Start_Snapshot_Replication
 
-**Prerequisites**
+Prerequisites
 
 - install package "snapshot replication"
 - Requires Btrfs volume (shared folder) or LUN.
@@ -44,9 +44,9 @@ A snapshot is a point-in-time copy of each file/directory on a volume from which
 
 Only file changes (deltas) on the volume are saved since the snapshot was created.
 
-**Note:** Snapshots of encrypted shared folders cannot be browsed. Rollback to a new volume when necessary.
+**Note:** Snapshots of encrypted shared folders cannot be browsed. Rollback the snapshot to a new volume to browse files/directories.
 
-**Sample schedule**
+Sample schedule
 
 ![synology_snapshotreplication](./images/synology_snapshotreplication.png)
 
@@ -54,14 +54,14 @@ Only file changes (deltas) on the volume are saved since the snapshot was create
 -  keep all snapshots for: 14 days
 -  make snapshot visible (ticked)
 
-## SynologyDrive on Linux
+## SynologyDrive on Linux, 
 
-**Synology prerequisites**
+### Synology prerequisites
 
 - install package "synology drive"
 - enable "User Home" service: Control Panel > "USer & Group" > Advanced > Enable user home service
 
-**Linux workstation**
+### Linux workstation
 
 Enable flathub repository.
 
@@ -90,7 +90,7 @@ sudo dnf install gnome-shell-extension-appindicator -y
 
 - [enable the appindicator extension](https://extensions.gnome.org/extension/615/appindicator-support/)
 
-Complete the setup by launching the synology drive application.
+Complete the set up by launching the synology drive application.
 
 **Optional:** link files and folders to synology drive.
 
