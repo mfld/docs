@@ -2,7 +2,7 @@
 
 
 
-![synology design overview](/home/fld/git/docs/images/synology design overview.png)
+![synology design overview](./images/synology design overview.png)
 
 ## Hard drives
 
@@ -29,7 +29,7 @@ Target non-peak workload hours for backup/integrity checks.
 
 
 
-![synology_backup_schedule](/home/fld/git/docs/images/synology_backup_schedule.png)
+<img src="./images/synology_backup_schedule.png" alt="synology_backup_schedule" style="zoom: 80%;" />
 
 ## Snapshot Replication
 
@@ -48,7 +48,7 @@ Only file changes (deltas) on the volume are saved since the snapshot was create
 
 **Sample schedule**
 
-![synology_snapshotreplication](/home/fld/git/docs/images/synology_snapshotreplication.png)
+![synology_snapshotreplication](./images/synology_snapshotreplication.png)
 
 -  frequency: every 15 minutes
 -  keep all snapshots for: 14 days
