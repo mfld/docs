@@ -59,7 +59,7 @@ Sample schedule
 ### Synology prerequisites
 
 - install package "synology drive"
-- enable "User Home" service: Control Panel > "USer & Group" > Advanced > Enable user home service
+- enable "User Home" service: Control Panel > "User & Group" > Advanced > Enable user home service
 
 ### Linux workstation
 
