@@ -60,6 +60,7 @@ Sample schedule
 
 - install package "synology drive"
 - enable "User Home" service: Control Panel > "User & Group" > Advanced > Enable user home service
+- optional, change the number of versions to keep of each file: Synology Drive Admin Consol > Team Folder > Versioning
 
 ### Linux workstation
 
