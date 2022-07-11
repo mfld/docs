@@ -4,7 +4,16 @@
 
 ![synology design overview](./images/synology_design_overview.png)
 
-## Hard drives
+## Capacity planning
+
+The primary function of a NAS is to store, share and **keep data redundant**.
+
+Hard drives are paired up in a RAID configuration and work together to avert data loss.
+https://www.synology.com/en-us/support/RAID_calculator
+
+**Note:** The type of RAID chosen will affect the storage capacity, or total disk space.
+
+Plan the storage capacity before setup, consider past present and future needs.
 
 On models with 6+ hard drive bays, populate all bays -2 to leave room to grow the capacity for future needs.
 
