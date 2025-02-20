@@ -39,7 +39,7 @@ sudo systemctl stop ollama
 sudo systemctl disable ollama
 
 sudo rm /usr/local/bin/ollama
-sudo rm /usr/local/lib/ollama
+sudo rm -r /usr/local/lib/ollama
 
 sudo rm /etc/systemd/system/ollama.service
 sudo systemctl daemon-reload
